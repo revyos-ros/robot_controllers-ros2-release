@@ -2,6 +2,11 @@
 Changelog for package robot_controllers_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.1 (2020-12-02)
+------------------
+* add Fergs as maintainer (`#65 <https://github.com/fetchrobotics/robot_controllers/issues/65>`_)
+* Contributors: Michael Ferguson
+
 0.8.0 (2020-11-25)
 ------------------
 * Add initial support for ROS2
