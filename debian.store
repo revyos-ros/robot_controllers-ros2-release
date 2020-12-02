@@ -1,1 +1,1 @@
-{"base": "9970c1d", "parent": "debian/foxy/robot_controllers_msgs", "previous": "53e1e1a", "trim": "", "trimbase": ""}
+{"trim": "", "base": "cc83947", "trimbase": "", "parent": "debian/foxy/robot_controllers_msgs", "previous": "8248131"}
