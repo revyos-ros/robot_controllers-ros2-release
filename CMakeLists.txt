@@ -68,6 +68,7 @@ ament_target_dependencies(robot_controllers
   trajectory_msgs
   urdf
 )
+target_compile_definitions(robot_controllers PUBLIC "PLUGINLIB__DISABLE_BOOST_FUNCTIONS")
 
 if (BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)
@@ -77,6 +78,7 @@ if (BUILD_TESTING)
     rclcpp
     robot_controllers_interface
   )
+  target_compile_definitions(${PROJECT_NAME}-trajectory-tests PUBLIC "PLUGINLIB__DISABLE_BOOST_FUNCTIONS")
 
   find_package(ament_cmake_cpplint)
   ament_cpplint(FILTERS "-whitespace/braces" "-whitespace/newline")
