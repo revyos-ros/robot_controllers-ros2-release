@@ -1,0 +1,12 @@
+Source: ros-foxy-robot-controllers
+Section: misc
+Priority: optional
+Maintainer: Russell Toris <rtoris@fetchrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), liborocos-kdl-dev, ros-foxy-ament-cmake, ros-foxy-ament-cmake-cpplint, ros-foxy-ament-cmake-gtest, ros-foxy-angles, ros-foxy-control-msgs, ros-foxy-geometry-msgs, ros-foxy-kdl-parser, ros-foxy-nav-msgs, ros-foxy-pluginlib, ros-foxy-rclcpp, ros-foxy-rclcpp-action, ros-foxy-robot-controllers-interface, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-tf2-geometry-msgs, ros-foxy-tf2-ros, ros-foxy-trajectory-msgs, ros-foxy-urdf, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-robot-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liborocos-kdl-dev, ros-foxy-angles, ros-foxy-control-msgs, ros-foxy-geometry-msgs, ros-foxy-kdl-parser, ros-foxy-nav-msgs, ros-foxy-pluginlib, ros-foxy-rclcpp, ros-foxy-rclcpp-action, ros-foxy-robot-controllers-interface, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-tf2-geometry-msgs, ros-foxy-tf2-ros, ros-foxy-trajectory-msgs, ros-foxy-urdf, ros-foxy-ros-workspace
+Description: Some basic robot controllers for use with robot_controllers_interface.
