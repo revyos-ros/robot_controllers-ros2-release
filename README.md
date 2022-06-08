@@ -1,3 +1,29 @@
+## robot_controllers (humble) - 0.9.0-1
+
+The packages in the `robot_controllers` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble -t humble robot_controllers` on `Wed, 08 Jun 2022 14:24:08 -0000`
+
+These packages were released:
+- `robot_controllers`
+- `robot_controllers_interface`
+- `robot_controllers_msgs`
+
+Version of package(s) in repository `robot_controllers`:
+
+- upstream repository: https://github.com/fetchrobotics/robot_controllers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.9.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## robot_controllers (foxy) - 0.8.1-1
 
 The packages in the `robot_controllers` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy -t foxy robot_controllers` on `Wed, 02 Dec 2020 14:25:03 -0000`
