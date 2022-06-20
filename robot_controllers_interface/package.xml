@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_controllers_interface</name>
+  <version>0.9.0</version>
+  <description>
+    Generic framework for robot controls.
+  </description>
+
+  <author>Michael Ferguson</author>
+  <maintainer email="rtoris@fetchrobotics.com">Russell Toris</maintainer>
+  <maintainer email="narora@fetchrobotics.com">Niharika Arora</maintainer>
+  <maintainer email="csaldanha@fetchrobotics.com">Carl Saldanha</maintainer>
+  <maintainer email="erelson@fetchrobotics.com">Eric Relson</maintainer>
+  <maintainer email="opensource@fetchrobotics.com">Fetch Robotics Open Source Team</maintainer>
+  <maintainer email="mfergs7@gmail.com">Michael Ferguson</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>pluginlib</depend>
+  <depend>robot_controllers_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+
+  <test_depend>ament_cmake_cpplint</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
