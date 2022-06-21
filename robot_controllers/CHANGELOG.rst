@@ -2,6 +2,9 @@
 Changelog for package robot_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.2 (2022-06-21)
+------------------
+
 0.9.1 (2022-06-20)
 ------------------
 * move transform listener to manager (`#77 <https://github.com/fetchrobotics/robot_controllers/issues/77>`_)
