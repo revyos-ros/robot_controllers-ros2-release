@@ -1,0 +1,203 @@
+ros-humble-robot-controllers (0.9.2-1jammy) jammy; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Tue, 21 Jun 2022 04:00:00 -0000
+
+ros-humble-robot-controllers (0.9.1-1jammy) jammy; urgency=high
+
+  * move transform listener to manager (#77 <https://github.com/fetchrobotics/robot_controllers/issues/77>)
+    each transform listener incurs an extra DDS node, which can
+    have a significant effect in a large system. this change
+    allows our robot driverrs to have a single shared transform
+    listener across all controllers (and even the whole node,
+    since the buffer can be passed in with the new constructor)
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Mon, 20 Jun 2022 04:00:00 -0000
+
+ros-humble-robot-controllers (0.9.0-1jammy) jammy; urgency=high
+
+  * update logging messages for galactic and later (#75 <https://github.com/fetchrobotics/robot_controllers/issues/75>)
+    https://docs.ros.org/en/humble/Releases/Release-Galactic-Geochelone.html#change-in-rclcpp-s-logging-macros
+    also add a few build cleanups, fails on humble otherwise
+  * use from_seconds for readability (#70 <https://github.com/fetchrobotics/robot_controllers/issues/70>)
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Wed, 08 Jun 2022 04:00:00 -0000
+
+ros-humble-robot-controllers (0.8.1-1jammy) jammy; urgency=high
+
+  * add Fergs as maintainer (#65 <https://github.com/fetchrobotics/robot_controllers/issues/65>)
+  * additional boost disabling (#64 <https://github.com/fetchrobotics/robot_controllers/issues/64>)
+  * disable boost components of pluginlib (#63 <https://github.com/fetchrobotics/robot_controllers/issues/63>)
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Wed, 02 Dec 2020 05:00:00 -0000
+
+ros-humble-robot-controllers (0.8.0-1jammy) jammy; urgency=high
+
+  * Add initial support for ROS2
+  * fix threading bug in point head controller (#62 <https://github.com/fetchrobotics/robot_controllers/issues/62>)
+  * get latest transform (#60 <https://github.com/fetchrobotics/robot_controllers/issues/60>)
+  * add linter, fix errors (#48 <https://github.com/fetchrobotics/robot_controllers/issues/48>)
+  * parallel gripper tested (#56 <https://github.com/fetchrobotics/robot_controllers/issues/56>)
+  * remove hard coded frame in point_head (#55 <https://github.com/fetchrobotics/robot_controllers/issues/55>)
+  * build fixes on eloquent (#54 <https://github.com/fetchrobotics/robot_controllers/issues/54>)
+  * add support for 4wd bases (#53 <https://github.com/fetchrobotics/robot_controllers/issues/53>)
+  * test, fix and improve scaled_mimic (#52 <https://github.com/fetchrobotics/robot_controllers/issues/52>)
+  * fix bug in laser checking: robot would always go slow if laser safety was on.
+  * Uses C++14
+  * make preemption work
+  * fix uninitialized time that would occasionally cause std::runtime_error* improve logging
+  * switch to service interface
+  * port all controllers and tested
+  * add util/declare_parameter_once
+  * Add time_from_start information to feedback topic (#38 <https://github.com/fetchrobotics/robot_controllers/issues/38>)
+  * [GCC][Warnings] SYSTEM includes and catch ref (#36 <https://github.com/fetchrobotics/robot_controllers/issues/36>)
+    This is an attempt to fix (silence) the buildbot failures from -Werror
+  * Updates maintainers
+  * Add init trajectory for future start time (#40 <https://github.com/fetchrobotics/robot_controllers/issues/40>)
+  * Contributors: Alex Moriarty, Michael Ferguson, Naoya Yamaguchi, Russell Toris, Shingo Kitagawa
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Wed, 25 Nov 2020 05:00:00 -0000
+
+ros-humble-robot-controllers (0.6.0-1jammy) jammy; urgency=high
+
+  * updates ownership
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Wed, 11 Jul 2018 04:00:00 -0000
+
+ros-humble-robot-controllers (0.5.3-1jammy) jammy; urgency=high
+
+  * remove limiter
+  * Improve cartesian twist controller (#26 <https://github.com/fetchrobotics/robot_controllers/issues/26>)
+  * Contributors: Hanjun Song, Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sun, 11 Jun 2017 04:00:00 -0000
+
+ros-humble-robot-controllers (0.5.2-1jammy) jammy; urgency=high
+
+  * do not export python library for linking
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Mon, 18 Jul 2016 04:00:00 -0000
+
+ros-humble-robot-controllers (0.5.1-1jammy) jammy; urgency=high
+
+  * base_controller: only update odometry if inputs are finite (prevents NANs to TF)
+  * base_controller: add velocity limiting
+  * pid: fix error in derivative error calculation
+  * allow velocity limiting code be reused for forward simulation #18 <https://github.com/fetchrobotics/robot_controllers/issues/18>
+  * Contributors: Cappy Pitts, Derek King, Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Mon, 18 Jul 2016 04:00:00 -0000
+
+ros-humble-robot-controllers (0.5.0-1jammy) jammy; urgency=high
+
+  * require finite commands to base controller
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sun, 21 Feb 2016 05:00:00 -0000
+
+ros-humble-robot-controllers (0.4.3-1jammy) jammy; urgency=high
+
+  * fix path/goal tolerance preparation
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sat, 05 Dec 2015 05:00:00 -0000
+
+ros-humble-robot-controllers (0.4.2-1jammy) jammy; urgency=high
+
+  * fixed segmentation faults due to misconfiguration
+  * Contributors: Arvin Asokan
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Thu, 22 Oct 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.4.1-1jammy) jammy; urgency=high
+
+  * add centering pid to gripper controller
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Fri, 12 Jun 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.4.0-1jammy) jammy; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sat, 23 May 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.3.4-1jammy) jammy; urgency=high
+
+  * add ability to reset controllers
+  * add timeout to laser speed scaling
+  * maintain constant curvature when scaling base velocity
+  * remove DiffDriveBaseController::publish()
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Fri, 22 May 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.3.3-1jammy) jammy; urgency=high
+
+  * use laser to slow base when obstacles are near
+  * add mutexes around command/odometry. publish odom in timer
+  * add -Wall to compile flags, fix compile warnings
+  * Contributors: Derek King, Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sun, 03 May 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.3.2-1jammy) jammy; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Thu, 09 Apr 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.3.1-1jammy) jammy; urgency=high
+
+  * use shortest_angular_distance for diff drive dx calculations
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sat, 28 Mar 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.3.0-1jammy) jammy; urgency=high
+
+  * improve windup support
+  * make spliced trajectory consistent in qd/qdd size
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Mon, 23 Mar 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.1.4-1jammy) jammy; urgency=high
+
+  * follow joint trajectory: add stop_on_path_violation parameter
+  * diff drive controller: split theta update into two parts
+  * diff drive controller: fix frames in odometry message
+  * diff drive controller: add autostart
+  * scaled mimic controller: add autostart
+  * add root/tip params to gravity compensation
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Fri, 13 Mar 2015 04:00:00 -0000
+
+ros-humble-robot-controllers (0.1.3-1jammy) jammy; urgency=high
+
+  * add scaled mimic controller (for bellows)
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Wed, 28 Jan 2015 05:00:00 -0000
+
+ros-humble-robot-controllers (0.1.2-1jammy) jammy; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Tue, 06 Jan 2015 05:00:00 -0000
+
+ros-humble-robot-controllers (0.1.1-1jammy) jammy; urgency=high
+
+  * initial release
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Mon, 05 Jan 2015 05:00:00 -0000
+
+
