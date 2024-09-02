@@ -1,0 +1,135 @@
+ros-humble-robot-controllers-msgs (0.9.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sat, 20 Aug 2022 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.9.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Mon, 20 Jun 2022 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.9.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sun, 19 Jun 2022 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.9.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Tue, 07 Jun 2022 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.8.1-1bookworm) bookworm; urgency=high
+
+  * add Fergs as maintainer (#65 <https://github.com/fetchrobotics/robot_controllers/issues/65>)
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Tue, 01 Dec 2020 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.8.0-1bookworm) bookworm; urgency=high
+
+  * Add initial support for ROS2
+  * Port messages to ros2
+  * Switch to service interface
+  * Updates maintainers
+  * Contributors: Alex Moriarty, Michael Ferguson, Russell Toris
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Tue, 24 Nov 2020 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.6.0-1bookworm) bookworm; urgency=high
+
+  * updates ownership
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Tue, 10 Jul 2018 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.5.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sat, 10 Jun 2017 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.5.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sun, 17 Jul 2016 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.5.1-1bookworm) bookworm; urgency=high
+
+  * Add DiffDriveLimiterParams message
+  * Contributors: Derek King
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sun, 17 Jul 2016 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.5.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sat, 20 Feb 2016 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.4.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Fri, 04 Dec 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.4.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Wed, 21 Oct 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.4.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Thu, 11 Jun 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.4.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Fri, 22 May 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.3.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Thu, 21 May 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.3.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sat, 02 May 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.3.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Wed, 08 Apr 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.3.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Fri, 27 Mar 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.3.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Sun, 22 Mar 2015 16:00:00 -0000
+
+ros-humble-robot-controllers-msgs (0.1.4-1bookworm) bookworm; urgency=high
+
+  * initial release
+  * Contributors: Michael Ferguson
+
+ -- Russell Toris <rtoris@fetchrobotics.com>  Thu, 12 Mar 2015 16:00:00 -0000
+
+
