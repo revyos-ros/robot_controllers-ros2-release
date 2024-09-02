@@ -1,0 +1,12 @@
+Source: ros-humble-robot-controllers
+Section: misc
+Priority: optional
+Maintainer: Russell Toris <rtoris@fetchrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), liborocos-kdl-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-angles, ros-humble-control-msgs, ros-humble-geometry-msgs, ros-humble-kdl-parser, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-robot-controllers-interface, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-trajectory-msgs, ros-humble-urdf, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-robot-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liborocos-kdl-dev, ros-humble-angles, ros-humble-control-msgs, ros-humble-geometry-msgs, ros-humble-kdl-parser, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-robot-controllers-interface, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-trajectory-msgs, ros-humble-urdf, ros-humble-ros-workspace
+Description: Some basic robot controllers for use with robot_controllers_interface.
